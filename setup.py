@@ -34,7 +34,7 @@ setup(
     description="commandline interface to ElasticSearch",
     entry_points={
         'console_scripts': [
-            'elasticcmd=elasticcmd.cli:main',
+            'ecmd=elasticcmd:main',
         ],
     },
     install_requires=requirements,
